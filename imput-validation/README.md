@@ -9,8 +9,33 @@ Certified Appsec Practitioner (CAP)
 
 
 * A validação deve ser feita dentro dos níveis sintáticos e semânticos. 
-Nível Sintático: A partir do nome, somos capazes de adivinhar que o syntático está relacionado com a sintaxe de qualquer entrada. Portanto, a sintaxe dos campos estruturados precisa ser validada. 
+Nível Sintático: A partir do nome, somos capazes de adivinhar que o syntático está relacionado com a sintaxe de qualquer entrada. Portanto, a sintaxe dos campos estruturados precisa ser validada.  </p>
 
-* Por exemplo:
+Por exemplo:
 
 * Número de telefone: +9779812345678, que mostra que temos um símbolo + no início da sintaxe seguido por um código de país que poderia estar entre 1 a 3 de comprimento, juntamente com o número de telefone, 10 em comprimento permitindo apenas dígitos de 0 a 9. 
+
+*Nível semântico: A semântica vem para jogar quando a correção dos valores está dentro do contexto necessário. Por exemplo: Datas: Permitir datas com limites quando necessário. Se uma data para a inscrição de um usuário dentro de uma universidade for dada, a validação semântica não deve permitir que o usuário insira nenhuma data antes da data de inscrição para a graduação. 
+
+* Alguns dos novos desenvolvedores que trabalham sem frameworks geralmente só lidam com a validação na parte frontal, tornando o aplicativo vulnerável quando as solicitações são modificadas por meio de diferentes ferramentas, como o Burp Suite ou até mesmo a capacidade do navegador de modificar e reenviar solicitações. 
+
+* Portanto, a validação deve ser feita tanto para a extremidade dianteira quanto para o back-end. Mas a maior parte da validação de entrada já está disponível em frameworks como o Django, o que facilita a implementação dessas validações. Mas parte da validação precisa ser feita de acordo com os casos que vemos. 
+
+
+# A seguir estão as formas de definir validações: 
+
+1. Verifica esquemas específicos, como JSON, XML, etc., e incluindo verificações rigorosas para validação.
+
+2. Usando o tratamento de exceções para lidar com casos especiais e usando tipos de dados para especificar o tipo de dados que estão sendo inseridos em vez de usar strings para cada tipo de dados.
+
+3. O intervalo dos caracteres deve ser verificado e limitado para que não mais do que o intervalo especificado possa ser inserido.
+
+4. O uso de expressões regulares deve ser feito para cobrir toda a string, em vez de apenas seções da string, ou seja, usar o - para digitalizar a partir do início da cadeia de caracteres e $ até o final para garantir que a cadeia de caracteres inteiras seja selecionada em vez de uma substring envolvida.
+
+5. Permitir apenas um conjunto de caracteres obrigatórios para ser aceito
+
+6. Usando a codificação para codificar caracteres especiais que precisam ser emitidos para a página ou aplicativo
+
+7. Valide o mesmo conjunto de regras para o nome dos uploads para os arquivos e renomeá-los aleatoriamente usando UUIDs ou qualquer convenção de nomenclatura que seja muito aleatória.
+
+8. Valide o tamanho do arquivo carregado e a extensão do arquivo. A extensão do arquivo deve ser validada e limitada.
