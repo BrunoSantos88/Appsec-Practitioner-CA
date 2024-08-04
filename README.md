@@ -35,3 +35,7 @@ Certified Appsec Practitioner (CAP)
 18. Information Disclosure.
 19. Vulnerable and Outdated Components.
 20. Common Supply Chain Attacks and Prevention Methods.
+
+# Referencia
+
+https://rkive.gitbook.io/certified-appsec-practitioner-cap

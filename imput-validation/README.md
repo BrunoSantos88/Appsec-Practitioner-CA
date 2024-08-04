@@ -71,3 +71,4 @@ Os arquivos enviados precisam ser verificados para qualquer conteúdo malicioso 
 
 https://wiki.owasp.org/index.php/Testing_for_Input_Validation </p>
 https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html </p>
+https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs</p>
