@@ -1,7 +1,7 @@
 # Appsec-Practitioner-CA
 Certified Appsec Practitioner (CAP)
 
-* Uma vez que o SecOps Group surgiu com um voucher que oferecia certificação gratuita para o Certified Appsec Practitioner, serei notas de presente aqui. Vou trabalhar no Certified Appsec Practitioner.  Os conteúdos do curso para o Certified Appsec Practitioner são todos como:
+* Os conteúdos do curso para o Certified Appsec Practitioner são todos como:
 
 1.Input Validation Mechanisms
 - Blacklisting
