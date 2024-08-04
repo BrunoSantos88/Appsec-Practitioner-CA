@@ -11,7 +11,6 @@ Certified Appsec Practitioner (CAP)
 * A validação deve ser feita dentro dos níveis sintáticos e semânticos. 
 Nível Sintático: A partir do nome, somos capazes de adivinhar que o syntático está relacionado com a sintaxe de qualquer entrada. Portanto, a sintaxe dos campos estruturados precisa ser validada. 
 
-````Por exemplo:
+* Por exemplo:
 
-Número de telefone: +9779812345678, que mostra que temos um símbolo + no início da sintaxe seguido por um código de país que poderia estar entre 1 a 3 de comprimento, juntamente com o número de telefone, 10 em comprimento permitindo apenas dígitos de 0 a 9. 
-````
+* Número de telefone: +9779812345678, que mostra que temos um símbolo + no início da sintaxe seguido por um código de país que poderia estar entre 1 a 3 de comprimento, juntamente com o número de telefone, 10 em comprimento permitindo apenas dígitos de 0 a 9. 
